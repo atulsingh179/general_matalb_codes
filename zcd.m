@@ -5,7 +5,7 @@ z = [0];
 len = length(y);
 x = y(a:l);
 j = 1
-for i = 1:len(x)-1
+for i = 1:length(x)-1
     a = x(i)*x(i+1);
     if a<0
         z(j) = i;
